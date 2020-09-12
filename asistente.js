@@ -1,6 +1,3 @@
-/*
-Programa creado por ElTallerDeTD
-*/
 
 if (annyang) {
 
@@ -52,6 +49,45 @@ if (annyang) {
                 window.open(url, '_blank');
             }
             abrirVentana("https://www.udemy.com/course/react-cero-experto/learn/lecture/19711728?start=0#overview");
+        },
+
+        'open facebook': function () {
+            utter.text = 'Ok';
+            //Setea la voz que queremos usar en base a nuestra lista.
+            utter.voice = voices[2];
+            window.speechSynthesis.speak(utter);
+            
+
+            function abrirVentana(url) {
+                window.open(url, '_blank');
+            }
+            abrirVentana("https://www.facebook.com/");
+        },
+
+        'open youtube': function () {
+            utter.text = 'Ok';
+            //Setea la voz que queremos usar en base a nuestra lista.
+            utter.voice = voices[2];
+            window.speechSynthesis.speak(utter);
+            
+
+            function abrirVentana(url) {
+                window.open(url, '_blank');
+            }
+            abrirVentana("https://www.youtube.com/");
+        },
+
+        'open linkedin': function () {
+            utter.text = 'Ok';
+            //Setea la voz que queremos usar en base a nuestra lista.
+            utter.voice = voices[2];
+            window.speechSynthesis.speak(utter);
+            
+
+            function abrirVentana(url) {
+                window.open(url, '_blank');
+            }
+            abrirVentana("https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin");
         },
 
         'open all': function () {
