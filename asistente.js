@@ -28,7 +28,7 @@ if (annyang) {
             window.speechSynthesis.speak(utter);
 
         },
-        'open youtube': function () {
+        'open course english': function () {
             utter.text = 'Ok';
             //Setea la voz que queremos usar en base a nuestra lista.
             utter.voice = voices[2];
@@ -38,8 +38,22 @@ if (annyang) {
             function abrirVentana(url) {
                 window.open(url, '_blank');
             }
-            abrirVentana("https://www.youtube.com/");
+            abrirVentana("https://www.youtube.com/watch?v=dFJvNYdKGrA&list=PLgrNDDl9MxYmUmf19zPiljdg8FKIRmP78&ab_channel=FranciscoOchoaIngl%C3%A9sF%C3%A1cil");
         },
+
+        'open course react': function () {
+            utter.text = 'Ok';
+            //Setea la voz que queremos usar en base a nuestra lista.
+            utter.voice = voices[2];
+            window.speechSynthesis.speak(utter);
+            
+
+            function abrirVentana(url) {
+                window.open(url, '_blank');
+            }
+            abrirVentana("https://www.udemy.com/course/react-cero-experto/learn/lecture/19711728?start=0#overview");
+        },
+
         'open all': function () {
             utter.text = 'Ok';
             //Setea la voz que queremos usar en base a nuestra lista.
