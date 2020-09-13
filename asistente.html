@@ -9,24 +9,54 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-          </div>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="asistente.html">Comandos de Jarvis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="informacion.html">Informacion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    <div class="container pt-5">
+        <div class="d-flex justify-content-center align-items-center pb-4" style="color: #0855C4; font-size: 32px;">
+            Jarvis
         </div>
-        <div class="col-8">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Hola</div>
-            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
-          </div>
+        <div style="width: 350px;" class="d-flex justify-content-center pb-3">
+            <h2 >Comandos de Jarvis</h2>
         </div>
-      </div>
+        <div>
+            <div class="row">
+                <div class="col-4">
+                  <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Hi Jarvis</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Open all</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Open Youtube</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Open Linkedin</a>
+                    <a class="list-group-item list-group-item-action" id="list-fb-list" data-toggle="list" href="#list-fb" role="tab" aria-controls="settings">Open Facebook</a>
+                    <a class="list-group-item list-group-item-action" id="list-ce-list" data-toggle="list" href="#list-ce" role="tab" aria-controls="settings">Open Course English</a>
+                    <a class="list-group-item list-group-item-action" id="list-cr-list" data-toggle="list" href="#list-cr" role="tab" aria-controls="settings">Open Course React</a>
+                  </div>
+                </div>
+                <div class="col-8">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Jarvis te saluda</div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Abre todas lo necesario para trabajar</div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Abre youtube</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Abre Linkedin</div>
+                    <div class="tab-pane fade" id="list-fb" role="tabpanel" aria-labelledby="list-fb-list">Abre Facebook</div>
+                    <div class="tab-pane fade" id="list-ce" role="tabpanel" aria-labelledby="list-cr-list">Abre curso de ingles</div>
+                    <div class="tab-pane fade" id="list-cr" role="tabpanel" aria-labelledby="list-cr-list">Abre curso de React</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
